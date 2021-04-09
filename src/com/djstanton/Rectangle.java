@@ -1,8 +1,8 @@
 package com.djstanton;
 
 public class Rectangle {
-    private double width;
-    private double length;
+    protected double width;
+    protected double length;
 
     public Rectangle (double width, double length) {
         this.width = (width < 0) ? 0: width;

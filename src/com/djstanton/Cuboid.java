@@ -13,6 +13,8 @@ public class Cuboid extends Rectangle {
     }
 
     public double getVolume() {
-        return this.height * this.getLength() * this.getWidth();
+
+        // return this.height * this.getLength() * this.getWidth();
+        return this.height * this.length * this.width;
     }
 }
